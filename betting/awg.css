@@ -1,0 +1,141 @@
+/* Add application styles & imports to this file! */
+
+
+body {
+	background-image: url(images/soccer.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+table {
+    width: 100%;
+    /* position: absolute; */
+    margin-top: 25px;
+    font-family: sans-serif;
+}
+
+table, th, td {
+	/* border: 1px rgb(172, 166, 166) solid; */
+	border-collapse: collapse;
+}
+tr:nth-child(even) {
+	background-color: #fcf5f5;
+}
+tr:nth-child(odd) {
+	background-color: white;
+}
+#rate {
+    padding: 10px;
+    background-color: rgb(148, 144, 144);
+    font-size: 20px;
+    font-weight: bolder;
+    color: white;
+    text-align: left;
+    font-family: 'Calibri';
+}
+#soccer, #day {
+    color: white;
+    background-color: #148f77;
+    font-weight: bold;
+    font-size: 18px; padding: 10px;
+}
+#day{
+    font-size: 15px;
+}
+#bets, #points {
+    font-size: 15px;
+    color: rgb(46, 145, 179);
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#bets {
+    padding-left: 10px;
+    text-align: left;
+}
+#team {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#country, #date {
+    font-size: 15px;
+}
+#date {
+    /* text-align: center; */
+    padding-left: 15px;
+}
+#live {
+    font-size: 15px;
+    color: darkblue;
+    font-weight: bold;
+}
+#other {
+    color: black;
+    font-size: 15px;
+    font-weight: lighter;
+}
+#bin {
+    height: 17px; width: 17px;
+}
+#clock {
+    height: 16px; width: 16px;
+}
+#pad {
+    padding: 2px;
+}
+#clck {
+    padding: 3px;
+}
+#arr, #crs {
+    margin-left: 10px;
+    height: 15px; width: 15px;
+}
+#crs {
+    height: 13px;
+    width: 13px;
+}
+#rat1, #rat2 {
+    padding: 7px;
+}
+#arr, #crs, #clock, #bin, #bromd {
+    opacity: 0.5;
+}
+#arr:hover, #crs:hover, #clock:hover, #bin:hover, #bromd:hover {
+    opacity: 0.9;
+}
+#bromd {
+    height: 16px;
+    width: 16px;
+    /* opacity: 0.6; */
+}
+td {
+    white-space: nowrap;
+}
+h3 {
+    color: white;
+}
+#flex {
+   
+    font-size: 18px;
+    height: 25px;
+    border: solid grey 1px;
+    border-radius: 20px;
+    text-decoration: none; background-color: lightblue;
+}
+#flex a {
+    text-decoration: none;
+    color: white;   
+    padding: 10px;
+}
+#flexbox {
+    justify-content: space-around;
+    display: flex; 
+}
+#flex:hover {
+    color: blue;
+    background-color: lightgreen;
+    border-radius: 21px;
+}
+ #flex a:hover {
+    color: blue;
+    /* text-decoration: underline; */
+}
